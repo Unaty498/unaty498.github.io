@@ -13,8 +13,8 @@
             overflow: hidden;
             font-family: 'Arial', sans-serif;
             background-color: #1a1a1a;
-            background-image: repeating-linear-gradient(45deg, transparent, transparent 35px, rgba(255,255,255,0.05) 35px, rgba(255,255,255,0.05) 70px);
-            animation: move-bg 10s linear infinite;
+            background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='40' viewbox='0 0 50 50' height='40'%3e%3cpath d='M20 0 L0 20 L15 20 L15 30 L10 40 L20 35 L30 40 L25 30 L25 20 L40 20 Z' fill='rgba(255,255,255,0.05)'/%3e%3c/svg%3e");
+            animation: move-bg 5s linear infinite;
         }
 
         .animation-container {
@@ -45,18 +45,18 @@
         }
 
         /* Animation Delays for each letter */
-        .text-container span:nth-child(1) { animation-name: fly-in, color-cycle, dance; animation-delay: 0.1s, 0s, 1.5s; }
-        .text-container span:nth-child(2) { animation-name: spin-in, color-cycle, dance; animation-delay: 0.2s, 0.5s, 1.6s; }
-        .text-container span:nth-child(3) { animation-name: fade-in-zoom, color-cycle, dance; animation-delay: 0.3s, 1s, 1.7s; }
-        .text-container span:nth-child(4) { animation-name: fly-in, color-cycle, dance; animation-delay: 0.4s, 1.5s, 1.8s; }
-        .text-container span:nth-child(5) { animation-name: spin-in, color-cycle, dance; animation-delay: 0.5s, 2s, 1.9s; }
-        .text-container span:nth-child(6) { animation-name: fade-in-zoom, color-cycle, dance; animation-delay: 0.6s, 2.5s, 2.0s; }
-        .text-container span:nth-child(7) { animation-name: fly-in, color-cycle, dance; animation-delay: 0.7s, 3s, 2.1s; }
-        .text-container span:nth-child(8) { animation-name: spin-in, color-cycle, dance; animation-delay: 0.8s, 3.5s, 2.2s; }
-        .text-container span:nth-child(9) { animation-name: fade-in-zoom, color-cycle, dance; animation-delay: 0.9s, 4s, 2.3s; }
-        .text-container span:nth-child(10) { animation-name: fly-in, color-cycle, dance; animation-delay: 1.0s, 4.5s, 2.4s; }
-        .text-container span:nth-child(11) { animation-name: spin-in, color-cycle, dance; animation-delay: 1.1s, 5s, 2.5s; }
-        .text-container span:nth-child(12) { animation-name: fade-in-zoom, color-cycle, dance; animation-delay: 1.2s, 5.5s, 2.6s; }
+        .text-container span:nth-child(1) { animation-name: fly-in, color-cycle, dance; animation-delay: 0.1s, 0.1s, 1.5s; }
+        .text-container span:nth-child(2) { animation-name: spin-in, color-cycle, dance; animation-delay: 0.2s, 0.2s, 1.6s; }
+        .text-container span:nth-child(3) { animation-name: fade-in-zoom, color-cycle, dance; animation-delay: 0.3s, 0.3s, 1.7s; }
+        .text-container span:nth-child(4) { animation-name: fly-in, color-cycle, dance; animation-delay: 0.4s, 0.4s, 1.8s; }
+        .text-container span:nth-child(5) { animation-name: spin-in, color-cycle, dance; animation-delay: 0.5s, 0.5s, 1.9s; }
+        .text-container span:nth-child(6) { animation-name: fade-in-zoom, color-cycle, dance; animation-delay: 0.6s, 0.6s, 2.0s; }
+        .text-container span:nth-child(7) { animation-name: fly-in, color-cycle, dance; animation-delay: 0.7s, 0.7s, 2.1s; }
+        .text-container span:nth-child(8) { animation-name: spin-in, color-cycle, dance; animation-delay: 0.8s, 0.8s, 2.2s; }
+        .text-container span:nth-child(9) { animation-name: fade-in-zoom, color-cycle, dance; animation-delay: 0.9s, 0.9s, 2.3s; }
+        .text-container span:nth-child(10) { animation-name: fly-in, color-cycle, dance; animation-delay: 1.0s, 1.0s, 2.4s; }
+        .text-container span:nth-child(11) { animation-name: spin-in, color-cycle, dance; animation-delay: 1.1s, 1.1s, 2.5s; }
+        .text-container span:nth-child(12) { animation-name: fade-in-zoom, color-cycle, dance; animation-delay: 1.2s, 1.2s, 2.6s; }
 
         .text-container span.space {
             width: 0.5em; /* Give space some width */
@@ -68,7 +68,7 @@
                 background-position: 0 0;
             }
             100% {
-                background-position: -100px -100px;
+                background-position: 80px 80px;
             }
         }
 
